@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
 
-import Translator from './components/Translator';
+import TranslatorTest from './components/TranslatorTest';
 
 function App() {
   return (
     <div className="App">
-      <Translator initialText="salutations" />
+      <TranslatorTest />
     </div>
   );
 }
